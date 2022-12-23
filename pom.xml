@@ -101,7 +101,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>com.japzio.App</mainClass>
+            <mainClass>com.japzio.AppV2</mainClass>
           </configuration>
         </plugin>
       </plugins>
