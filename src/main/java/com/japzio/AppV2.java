@@ -1,7 +1,7 @@
 package com.japzio;
 
 import lombok.extern.slf4j.Slf4j;
-
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -13,7 +13,8 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class AppV2 {
-    public static void main( String[] args ) {
+
+    public static void main( String[] args ) throws IOException {
 
         Set<Integer> arr1 = Set.of(1, 2, 3, 4, 5, 6);
         Set<Integer> arr2 = Set.of(2, 4, 6, 8, 10);
@@ -23,6 +24,7 @@ public class AppV2 {
         log.info("intersections={}", intersections(arr1, arr2, arr3));
 
         log.info("intersectionsV2={}", intersectionsV2(arr1, arr2, arr3));
+
     }
 
     public static List<Integer> intersections(Set<Integer> arr1, Set<Integer> arr2, Set<Integer> arr3){

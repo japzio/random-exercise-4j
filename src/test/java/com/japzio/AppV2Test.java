@@ -10,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit test for simple App.
  */
+
 public class AppV2Test {
     /**
      * Rigorous Test :-)
