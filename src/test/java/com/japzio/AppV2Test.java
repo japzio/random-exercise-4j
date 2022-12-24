@@ -21,5 +21,6 @@ public class AppV2Test {
         Set<Integer> arr2 = Set.of(2, 4, 6, 8, 10);
         Set<Integer> arr3 = Set.of(1, 4, 6, 7, 10);
         assertEquals(AppV2.intersections(arr1, arr2, arr3), List.of(4, 6));
+        assertEquals(AppV2.intersectionsV2(arr1, arr2, arr3), List.of(4, 6));
     }
 }
