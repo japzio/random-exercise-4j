@@ -1,4 +1,4 @@
-package com.japzio;
+package com.japzio.collection;
 
 import lombok.extern.slf4j.Slf4j;
 

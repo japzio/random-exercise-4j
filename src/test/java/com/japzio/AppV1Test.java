@@ -2,6 +2,7 @@ package com.japzio;
 
 import static org.junit.Assert.assertEquals;
 
+import com.japzio.collection.AppV1;
 import org.junit.Test;
 
 import java.util.List;

@@ -1,5 +1,6 @@
 package com.japzio;
 
+import com.japzio.collection.AppV2;
 import org.junit.Test;
 
 import java.util.List;

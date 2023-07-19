@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.japzio</groupId>
-  <artifactId>set-exercise</artifactId>
+  <artifactId>random-exercise-4j</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>set-exercise</name>
+  <name>Random Exercise for Java</name>
   <url>https://github.com/japzio</url>
 
   <properties>
@@ -100,7 +100,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>com.japzio.AppV2</mainClass>
+            <mainClass>com.japzio.string.StringJoinerApp</mainClass>
           </configuration>
         </plugin>
       </plugins>
